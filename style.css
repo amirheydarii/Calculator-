@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 
 body {
   margin: 0%;
@@ -7,7 +7,6 @@ body {
   height: 100vh;
   background-color: #ececec;
   scrollbar-gutter: stable both-edges;
-
 }
 
 * {
@@ -24,8 +23,7 @@ main {
   align-items: center;
 }
 
-
-.item1{
+.item1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,36 +33,36 @@ main {
   box-shadow: 7px 7px 11px #cfcfd1, inset 4px 4px 8px rgba(255, 255, 255, 0.42),
     inset -5px -5px 6px rgba(0, 0, 0, 0.1);
   border-radius: 17px;
-  font-family: 'Istok Web', sans-serif;
+  font-family: "Istok Web", sans-serif;
   font-size: xx-large;
   color: #8c8c8c;
 }
 
 .item2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75px;
-    height: 70px;
-    background-color: #FF8D29;
-    box-shadow: 7px 7px 11px #cfcfd1, inset 4px 4px 8px rgba(255, 255, 255, 0.42),
-      inset -5px -5px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 70px;
+  background-color: #ff8d29;
+  box-shadow: 7px 7px 11px #cfcfd1, inset 4px 4px 8px rgba(255, 255, 255, 0.42),
+    inset -5px -5px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 17px;
 }
 
 .item3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75px;
-    height: 70px;
-    background-color: #ececec;
-    box-shadow: 7px 7px 11px #cfcfd1, inset 4px 4px 8px rgba(255, 255, 255, 0.42),
-      inset -5px -5px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 17px;
-    font-family: 'Istok Web', sans-serif;
-    font-size: xx-large;
-    color: #8c8c8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 70px;
+  background-color: #ececec;
+  box-shadow: 7px 7px 11px #cfcfd1, inset 4px 4px 8px rgba(255, 255, 255, 0.42),
+    inset -5px -5px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 17px;
+  font-family: "Istok Web", sans-serif;
+  font-size: xx-large;
+  color: #8c8c8c;
 }
 
 .container {
@@ -94,7 +92,7 @@ main {
 }
 
 .github {
-    width: 30px;
-    height: 30px;
-    margin-top: 10px;
-  }
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
