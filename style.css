@@ -72,6 +72,9 @@ main {
 }
 
 .display {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
   width: 100%;
   height: 150px;
   margin-bottom: 10px;
@@ -80,6 +83,13 @@ main {
   box-shadow: -4px -4px 7px #ffffff, 4px 4px 14px rgba(0, 0, 0, 0.28),
     inset -4px -4px 6px #ffffff, inset 4px 4px 10px rgba(0, 0, 0, 0.12);
   border-radius: 18px;
+}
+
+.display-result {
+  font-family: "Istok Web", sans-serif;
+  font-size: xx-large;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .container1 {
