@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
 body {
   margin: 0%;
   padding: 0%;
@@ -22,10 +24,6 @@ main {
   align-items: center;
 }
 
-.github {
-  width: 20px;
-  height: 20px;
-}
 
 .item1{
   display: flex;
@@ -37,6 +35,9 @@ main {
   box-shadow: 7px 7px 11px #cfcfd1, inset 4px 4px 8px rgba(255, 255, 255, 0.42),
     inset -5px -5px 6px rgba(0, 0, 0, 0.1);
   border-radius: 17px;
+  font-family: 'Istok Web', sans-serif;
+  font-size: xx-large;
+  color: #8c8c8c;
 }
 
 .item2 {
@@ -61,18 +62,22 @@ main {
     box-shadow: 7px 7px 11px #cfcfd1, inset 4px 4px 8px rgba(255, 255, 255, 0.42),
       inset -5px -5px 6px rgba(0, 0, 0, 0.1);
     border-radius: 17px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: xx-large;
+    color: #8c8c8c;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.4rem;
 }
 
 .display {
   width: 100%;
   height: 150px;
   margin-bottom: 10px;
+  margin-top: -2rem;
   background: #ececec;
   box-shadow: -4px -4px 7px #ffffff, 4px 4px 14px rgba(0, 0, 0, 0.28),
     inset -4px -4px 6px #ffffff, inset 4px 4px 10px rgba(0, 0, 0, 0.12);
@@ -81,9 +86,15 @@ main {
 
 .container1 {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.3rem;
 }
 
 .zero {
   flex-grow: 1;
 }
+
+.github {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+  }
