@@ -8,33 +8,34 @@ let divider = document.querySelector(".divider");
 let total = document.querySelector(".total");
 let subtractor = document.querySelector(".subtraction");
 let equal = document.querySelector(".equal");
-let dot = document.querySelector(".dot");
-
-
+let point = document.querySelector(".item4")
 let buttons = document.querySelectorAll(".item3")
 
 buttons.forEach((div) => {
-    div.addEventListener("click", () => setDisplay(div , displayResult))
+    div.addEventListener("click", () => setDisplay(div))
 })
 
+point.addEventListener('click' , () => setPoint())
 
-function setDisplay(number , displayResult) {
-    let displayNum = displayResult.textContent
-    displayResult.textContent = `${number.textContent}`
-    displayResult.textContent = displayNum + `${number.textContent}`
-    if (displayNum === "0") {
-        resetDisplay(number, displayResult)
-    }
+function setDisplay(number) {
+    resetDisplay()
+    displayResult.textContent += `${number.textContent}`
+
+}
+
+function resetDisplay() {
     
+    if (displayResult.textContent === "0") {
+        displayResult.textContent = ""
+    }
 }
 
-function resetDisplay(number, displayResult) {
-    displayResult.textContent = `${number.textContent}`
+let falseValue = false
+
+function setPoint() {
+     if (displayResult.textContent.includes(".")) return
+     displayResult.textContent += "."
 }
-
-
-
-
 
 
 

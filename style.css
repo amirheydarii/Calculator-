@@ -67,6 +67,22 @@ main {
   user-select: none;
 }
 
+.item4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 70px;
+  background-color: #ececec;
+  box-shadow: 7px 7px 11px #cfcfd1, inset 4px 4px 8px rgba(255, 255, 255, 0.42),
+    inset -5px -5px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 17px;
+  font-family: "Istok Web", sans-serif;
+  font-size: xx-large;
+  color: #8c8c8c;
+  user-select: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
