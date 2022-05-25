@@ -36,6 +36,7 @@ main {
   font-family: "Istok Web", sans-serif;
   font-size: xx-large;
   color: #8c8c8c;
+  user-select: none;
 }
 
 .item2 {
@@ -63,6 +64,7 @@ main {
   font-family: "Istok Web", sans-serif;
   font-size: xx-large;
   color: #8c8c8c;
+  user-select: none;
 }
 
 .container {
